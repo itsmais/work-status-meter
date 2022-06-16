@@ -4,4 +4,5 @@ A status meter for your work station, powered by a Raspberry Pi hooked to a real
 - add diagram (for both data flow and raspberry pi hardware connection)
 - add extension code (REMOVE CREDS)
 - add pi code (REMOVE CREDS) + running it and SSHing into it
-- moving forward: add LCD, automatic script run
+- moving forward: add LCD output (https://www.freecodecamp.org/news/monitor-the-weather-with-node-and-raspberry-pi/), automatic script run
+- 
