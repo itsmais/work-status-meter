@@ -1,10 +1,19 @@
 # work-status-meter
-A status meter for your work station, powered by a Raspberry Pi hooked to a real-time Firestore database.
-- add GIF
-- add diagram (for both data flow and raspberry pi hardware connection)
-- add extension code (REMOVE CREDS)
-- add pi code (REMOVE CREDS) + running it and SSHing into it
-- moving forward: add LCD output (https://www.freecodecamp.org/news/monitor-the-weather-with-node-and-raspberry-pi/), automatic script run
+A status meter for your work station, powered by a Raspberry Pi hooked to a Firestore database. The Pi script polls the database for changes every 2 seconds.
+<p float="center">
+  <img src="diagram.png" width="600" />
+</p>
 
-### on hold
-- awaiting getting female-to-female cables to be able to hook the 12x2 display to the Pi.
+## To do 🚀
+- Hook a 12x2 LCD to the Pi and display the work status in a text for accessibility.
+
+## What's included 🖥️ 
+### Chrome extension
+To install the extension, unzip it and go to Chrome settings -> extensions -> load unpacked. 
+### Pi Script
+This is a Javascript file that can be run on the Raspberry Pi. To do that, cd into the directory and run 
+```sh
+npm install
+node index.js
+```
+You need to have Node and npm installed on your machine.
