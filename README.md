@@ -1,7 +1,7 @@
 # work-status-meter
 A status meter for your work station, powered by a Raspberry Pi hooked to a Firestore database. The Pi script polls the database for changes every 2 seconds.
 <p float="center">
-  <img src="diagram.png" width="600" />
+  <img src="diagram.png" width="1000" />
 </p>
 
 ## To do 🚀
